@@ -1,2 +1,2 @@
-# Evaluation of 10 Different-Regression-Methods
+# Evaluation of 10 Different Regression Methods
 Analyze and compare different  regression methods available in CRAN (Comprehensive  R Archive Network) 
