@@ -8,15 +8,10 @@ library(gbm)
 
 # datasets, urls, and frmla_strings used in i loop (first/outermost loop)
 datasets <- c(
-  # Charlie (n = 7)
   "ceo_pay", "AIG_daily", "diamonds", "energy", "beijin_pm2.5", "ami_charges", "ny_bridges",
-  # Zoe (n = 10)
   "wine_quality", "named_uci_data", "Parkinsons", "sleep", "garments", "weight", "boston", "cholestrol", "graduate", "iceCream",
-  # Manraj (n = 8)
   "Saratoga_house_prices", "cigarettes", "forest_fires", "QSAR_fish", "NBA_Betting_Odds", "Predictive_maintenance", "QSAR_aquatic", "Fuel_economy",
-  # Harshali (n = 6)
   "Seoul_Bike_Sharing_Demand", "Amazon_book_dataset", "Movie_profit_dataset", "PVC", "Cost_of_living_2018", "Real_Estate_Cost_Evaluation",
-  # Sanaz (n = 1)
   "Commercial_properties"
 )
 
