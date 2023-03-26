@@ -16,14 +16,14 @@ datasets <- c(
 )
 
 frmla_strings <- c(
-  "compensation_M ~ Ratio + median_salary", # begin charlie
+  "compensation_M ~ Ratio + median_salary",
   "close_open_diff ~ Open + High + Low + Volume + year_day + Month + Day + Year",
   "Price ~ Carat_size + Color + Clarity + Depth + Table + Cut + Report",
   "total_energy ~ lights + T1 + RH_1 + T2 + RH_2 + T3 + RH_3 + T4 + RH_4 + T5 + RH_5 + T6 + RH_6 + T7 + RH_7 + T8 + RH_8 + T9 + RH_9 + T_out + Press_mm_hg + RH_out + Windspeed + Visibility + Tdewpoint + rv1 + rv2",
   "pm2.5 ~ year + month + day + hour + DEWP + TEMP + PRES + cbwd + Iws + Is + Ir",
   "CHARGES ~ LOS + AGE + SEX + DRG + DIED",
-  "Condition ~ Built + AgeAtInspection + Manhattan", # end charlie
-  "alcohol ~ sulphates + pH + density", # begin zoe
+  "Condition ~ Built + AgeAtInspection + Manhattan", 
+  "alcohol ~ sulphates + pH + density", 
   "tau1 ~ tau2 + tau3 + tau4 + p1 + p2 + p3",
   "age ~ sex + test_time + motor_UPDRS + total_UPDRS ",
   "heart_rate ~ sleep_state + temperature",
@@ -32,22 +32,22 @@ frmla_strings <- c(
   "CRIM ~  DIS + INDUS + NOX + RM + AGE + DIS",
   "chol ~ age + trestbps",
   "public ~ gpa + pared + apply",
-  "ice_cream ~ female + video + puzzle", # end zoe
-  "Price ~ Size + Baths + Bedrooms + Acres + Age", # begin manraj
+  "ice_cream ~ female + video + puzzle", 
+  "Price ~ Size + Baths + Bedrooms + Acres + Age",
   "Nicotine ~ TAR + CO",
   "DC ~ FFMC + DMC + ISI + temp + RH + wind",
   "LC50 ~ CIC0 + SM1_Dz + GATS1i + NdsCH + NdssC + MLOGP",
   "TeamDiff ~ TeamPts + OppPts + OT + OvrUndr + TeamSprd + Team_id + OppId",
   "Torque_nm ~  Air_temp_K + Rotational_speed_rpm + Tool_wear_min",
   "LC50_aquatic ~ TPSA_Tot + SAacc + H050 + MLOGP + RDCHI + GATS1p + nN + C040",
-  "CombinedMPG ~ Displacement + Cylinders + Gears + CombCO2 + Sample", # end manraj
-  "Rented_Bike_Count ~ Hour + Humidity + Solar_Radiation", # begin harshali
+  "CombinedMPG ~ Displacement + Cylinders + Gears + CombCO2 + Sample", 
+  "Rented_Bike_Count ~ Hour + Humidity + Solar_Radiation", 
   "List_Price ~  Amazon_Price + height + Width + thick + Weight",
   "US_Gross_ ~ Budget + Run_Time + Critic_Score",
   "Sqrt.Average.Gift ~ Average.Gift + Current.Gift + Num.Children",
   "Cost_of_Living ~ Groceries + Rent + Restaurant",
-  "Price ~ Living_area + bedrooms + bathrooms + year + garage", # end harshali
-  "Price ~ Stories + Size	+ Fitness_Center + Food_Service +	Atrium + Land + Yr_Ren + Yr_Blt	+ Steel	+ Masonry" # sanaz
+  "Price ~ Living_area + bedrooms + bathrooms + year + garage", 
+  "Price ~ Stories + Size	+ Fitness_Center + Food_Service +	Atrium + Land + Yr_Ren + Yr_Blt	+ Steel	+ Masonry" 
 )
 
 # used in k loop (third/innermost loop)
